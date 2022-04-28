@@ -1,0 +1,341 @@
+/*body*/
+* {
+    font-family: Helvetica, Arial,  sans-serif;
+    box-sizing: border-box;
+    width: auto;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 66px;
+}
+
+/*Top Header*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+header h1{
+  text-align: center;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(178, 177, 182);
+    align-items: center;
+}
+
+.top-header img {
+  width: 150px;
+}
+
+.main-title__b a{
+  color: antiquewhite;
+}
+
+
+/*nav header*/
+
+.main-navbar {
+    display: inline;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-navbar a {
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+    margin: 8px;
+  }
+  .main-navbar li:hover {
+    color: black;
+    transition: 0.3s;
+    transform: scale(1.1); 
+  }
+
+
+  .art{
+      padding: 3px;
+      margin: 3px;
+      border-color: lightgray;
+      box-shadow: 15px;
+      width: 80vw;
+  }
+
+  .art img{
+      width: 100%;
+      margin-top: 5px;
+  }
+
+  .art {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0px 0px 1px rgb(100, 100, 100);
+      
+  }
+
+  .art-guitar{
+    margin: 5px;
+    padding: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .art:hover {
+    box-shadow:  0px 0px 10px rgb(100, 100, 100);
+  }
+
+
+  .index{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      background-image: url(/images/mastodon.jpg);
+      background-size: 100%;
+      background-attachment: fixed;
+  }
+
+.header-index {
+  text-align: center;
+}
+
+.header-index img{
+  margin-top: 100px;
+}
+
+  .index-footer{
+    position: absolute;
+    bottom: 50px;
+    display: block;
+    justify-content: center;
+  }
+
+  .index-footer i{
+    margin: 15px;
+    font-size: 2.5em;
+    color: #141414;
+  }
+
+  .index-footer i:hover{
+    color: black;
+    transition: 0.3s;
+    transform: scale(1.1); 
+  }
+
+
+
+  .main-title {
+    margin-top: 350px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-title__b {
+    display: inline;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  .main-title__b i:hover{
+
+    color: black;
+    transition: 0.3s;
+    transform: scale(1.1); 
+  }
+
+
+  /*home-footer*/
+  
+  .home-footer{
+    text-align: center;
+    background-image: url(/images/footer.webp);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home-footer__art {
+    display: flex;
+    justify-content:center;
+    width: 30%;
+  } 
+
+
+
+  .home-footer_i i{
+    margin: 15px;
+    font-size: 2.5em;
+    color: 141414;
+  }
+
+  .home-footer_i i:hover{
+    color: black;
+    transition: 0.3s;
+    transform: scale(1.1); 
+  }
+  .home-footer__art_i h3{
+    font-family: 'Anton', sans-serif;
+  }
+
+  .list{
+    text-align: center;
+  }
+
+  .boton-sign{
+    background-color: #141414;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+    width: 90%;
+  }
+
+  .boton-sign:hover{
+    color: black;
+    transition: 0.3s;
+    transform: scale(1.1); 
+  }
+
+  a {
+    color: #141414;
+  }
+
+
+  /*registro*/
+
+  .form-register {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  }
+  
+  .form-control {
+    margin: 20px;
+  }
+  
+  .form-check {
+    padding: 3px;
+  
+  }
+  
+  .boton-formulario {
+    background-color: #141414;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5%;
+  }
+
+
+  .form-button {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+
+
+  .control {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    display: inline;
+    border-radius: 5px;
+    justify-content: center;
+  }
+
+  .control:invalid{
+    background-color: lightpink;
+    
+  }
+  
+main label{
+  color: #141414;
+}
+
+main label:hover{
+  color: black;
+  transition: 0.3s;
+  transform: scale(1.1); 
+}
+
+
+.main-lesson{
+  display: flex;
+  justify-content: start;
+  padding: 3px;
+  width: 80vw;
+  flex-direction: column;
+}
+
+.section-leccion{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-material{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.web-info {
+  align-items: left;
+  width: 80vw;
+}
+
+.pdf{
+  width: 80vw;
+  height: 80vh;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.section-material__contenido {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+@media (min-width: 768px) {
+  .art {
+    width: 35vw;
+  }
+
+  .section-leccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+  }
